@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_nany_site_concepts",
+  "info": {
+    "name": "concepts",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

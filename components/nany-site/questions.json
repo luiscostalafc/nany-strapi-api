@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nany_site_questions",
+  "info": {
+    "name": "questions",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

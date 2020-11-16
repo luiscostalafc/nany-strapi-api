@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nany_site_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

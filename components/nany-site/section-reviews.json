@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_nany_site_section_reviews",
+  "info": {
+    "name": "sectionReviews",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.reviews"
+    }
+  }
+}

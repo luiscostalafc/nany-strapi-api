@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_nany_site_princing_boxes",
+  "info": {
+    "name": "princingBox",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer"
+    },
+    "numberInstallments": {
+      "type": "integer"
+    },
+    "priceInstallment": {
+      "type": "integer"
+    },
+    "benefits": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.button"
+    }
+  }
+}

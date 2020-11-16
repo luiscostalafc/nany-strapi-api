@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nany_site_section_schedules",
+  "info": {
+    "name": "sectionSchedule",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

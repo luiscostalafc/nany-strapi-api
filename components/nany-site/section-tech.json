@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nany_site_section_teches",
+  "info": {
+    "name": "sectionTech",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.tech-icons"
+    }
+  }
+}

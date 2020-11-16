@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "nany_sites",
+  "info": {
+    "name": "NanySite",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.header"
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.section-about-project"
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.section-tech"
+    },
+    "sectionConcept": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.section-concept"
+    },
+    "sectionsModules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.sections-modules"
+    },
+    "sectionSchedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nany-site.section-schedule"
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.section-about-us"
+    },
+    "princingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nany-site.princing-box"
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nany-site.section-faq"
+    },
+    "sectionSlider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nany-site.section-slider"
+    }
+  }
+}

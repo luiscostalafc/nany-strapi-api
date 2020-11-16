@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nany_site_section_aboutuses",
+  "info": {
+    "name": "sectionAboutUs",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}

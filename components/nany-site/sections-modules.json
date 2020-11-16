@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_nany_site_sections_modules",
+  "info": {
+    "name": "sectionsModules",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nany-site.modules"
+    }
+  }
+}

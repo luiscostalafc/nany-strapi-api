@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nany_site_modules",
+  "info": {
+    "name": "modules",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

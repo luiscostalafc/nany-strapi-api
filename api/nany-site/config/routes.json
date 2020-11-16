@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nany-site",
+      "handler": "nany-site.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nany-site",
+      "handler": "nany-site.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nany-site",
+      "handler": "nany-site.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
